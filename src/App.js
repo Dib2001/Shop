@@ -10,7 +10,7 @@ import Main from "./components/Home/Main";
 function App() {
   return (
     <>
-      {/* <Router>
+      <Router>
         <Routes>
           <Route
             exact
@@ -40,8 +40,8 @@ function App() {
             }
           />
         </Routes>
-      </Router> */}
-      <Main/>
+      </Router>
+      {/* <Main/> */}
     </>
   );
 }
